@@ -1,0 +1,53 @@
+# GitHub Pages Configuration for CATBench Documentation
+
+# Site settings
+title: CATBench Documentation
+description: A benchmarking framework for evaluating computational performance and energy efficiency
+baseurl: "/catbench" # the subpath of your site
+url: "https://odgaard.github.io" # the base hostname
+
+# Theme
+theme: jekyll-theme-cayman
+# Alternative themes: jekyll-theme-minimal, jekyll-theme-slate, jekyll-theme-primer
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Getting Started
+    url: /getting-started
+  - title: Benchmarks
+    url: /benchmarks
+  - title: API Reference
+    url: /api-reference
+  - title: Examples
+    url: /examples
+  - title: Deployment
+    url: /deployment
+  - title: Contributing
+    url: /contributing
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# GitHub repository
+repository: odgaard/catbench
