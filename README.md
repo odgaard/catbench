@@ -98,3 +98,4 @@ cluster_benchmark = cb.benchmark("spmm", dataset="cluster_run", port=50050, serv
 ```
 
 You can then use the interface from the client as normal. The configurations are automatically sent and queued to run on any of the available servers.
+
