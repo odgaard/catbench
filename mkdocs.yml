@@ -33,17 +33,12 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started:
-    - Installation: getting-started.md
-    - Quick Start: getting-started.md#basic-usage
+  - Getting Started: getting-started.md
   - User Guide:
-    - Available Benchmarks: benchmarks.md
+    - Benchmarks: benchmarks.md
     - Examples: examples.md
     - API Reference: api-reference.md
-  - Deployment:
-    - Single Node: deployment.md#single-node-deployment
-    - Cluster Setup: deployment.md#cluster-deployment
-    - Docker: deployment.md#docker-deployment-options
+  - Deployment: deployment.md
   - Contributing: contributing.md
 
 plugins:
@@ -68,6 +63,11 @@ markdown_extensions:
   - pymdownx.details
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
   social:
