@@ -36,24 +36,6 @@ git checkout -b feature/your-feature-name
 
 ## Development Guidelines
 
-### Code Style
-
-We use Python PEP 8 with the following tools:
-- **Black** for code formatting
-- **Flake8** for linting
-- **MyPy** for type checking
-
-```bash
-# Format code
-black catbench/
-
-# Check linting
-flake8 catbench/
-
-# Type checking
-mypy catbench/
-```
-
 ### Project Structure
 
 ```
@@ -66,7 +48,6 @@ catbench/
 │   ├── rise.py         # RISE benchmark base class
 │   ├── spmm.py         # SpMM benchmark
 │   └── ...             # Other benchmarks
-├── server/             # gRPC server (if applicable)
 ├── utils/              # Utility functions
 └── tests/              # Test files
 ```
