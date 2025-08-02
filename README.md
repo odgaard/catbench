@@ -1,6 +1,11 @@
 # CATBench: Benchmarking Framework
 
+[![Documentation](https://img.shields.io/badge/docs-github.io-blue)](https://odgaard.github.io/catbench/)
+[![License](https://img.shields.io/github/license/odgaard/catbench)](LICENSE)
+
 CATBench is a benchmarking framework designed for evaluating computational performance and energy efficiency of compiler benchmarks. It allows users to define and run benchmarks either on actual hardware via gRPC, using Catboost-based surrogate models, or using precomputed tabular data.
+
+📚 **[Read the full documentation](https://odgaard.github.io/catbench/)** for detailed guides, API reference, and examples.
 
 ## Getting Started
 
@@ -98,4 +103,22 @@ cluster_benchmark = cb.benchmark("spmm", dataset="cluster_run", port=50050, serv
 ```
 
 You can then use the interface from the client as normal. The configurations are automatically sent and queued to run on any of the available servers.
+
+## Documentation
+
+For comprehensive documentation, visit our [documentation site](https://odgaard.github.io/catbench/):
+
+- [Getting Started Guide](https://odgaard.github.io/catbench/getting-started/)
+- [Available Benchmarks](https://odgaard.github.io/catbench/benchmarks/)
+- [API Reference](https://odgaard.github.io/catbench/api-reference/)
+- [Deployment Guide](https://odgaard.github.io/catbench/deployment/)
+- [Examples](https://odgaard.github.io/catbench/examples/)
+
+## Contributing
+
+We welcome contributions! See our [Contributing Guide](https://odgaard.github.io/catbench/contributing/) for details.
+
+## License
+
+CATBench is open-source software. See the [LICENSE](LICENSE) file for details.
 
