@@ -3,6 +3,7 @@ site_url: https://odgaard.github.io/catbench/
 site_description: A benchmarking framework for evaluating computational performance and energy efficiency
 repo_url: https://github.com/odgaard/catbench
 repo_name: odgaard/catbench
+docs_dir: .
 
 theme:
   name: material
